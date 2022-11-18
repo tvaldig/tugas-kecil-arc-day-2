@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    margin: 100;
+    padding: 1000;
+    
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Kaisei Decol', serif;
+    background-color: #ccc;
+    background : linear-gradient(-45deg, #5aaef2, #ff8cea);
+}
+
+
+.judul{
+    font-size: 9px;
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
+    text-align: center;
+    border-bottom: 7px solid blanchedalmond;
+    display : block;
+}
+
+.choose {
+    font-size: 20px;
+    display: flex;
+    color: antiquewhite;
+    justify-content: center;
+    text-align: right;
+}
+
+
+.buttons {
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    color: antiquewhite;
+    justify-content: center;
+    text-align: right;
+}
+
+.button1{
+ padding: 110px 110px;
+    display: flex;
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 225px;
+    margin-top: 15px;
+    font-size: 60px;
+    transition: ease-in 0.3s;
+    justify-content: left;
+    border-radius: 20%;
+    text-decoration: none;
+    background: url("flirty-japanese-cartoon-rock-digital-illustration-116946145-removebg-preview.png");
+    background-size: 230px 230px;
+    border: transparent;
+    
+    
+ }
+
+ .button1:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+ }
+
+.button2 {
+    padding: 115px 115px;
+    display: flex;
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 225px;
+    margin-top: 15px;
+    font-size: 60px;
+    transition: ease-in 0.3s;
+    justify-content: left;
+    border-radius: 20%;
+    text-decoration: none;
+    background: url("paper.png");
+    background-size: 230px 230px;
+    border: transparent;
+
+
+}
+
+.button2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+ 
+.button3 {
+    padding: 110px 115px;
+    display: flex;
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 225px;
+    margin-top: 15px;
+    transition: ease-in 0.3s;
+    justify-content: left;
+    border-radius: 20%;
+    text-decoration: none;
+    background: url("scissors-removebg-preview.png");
+    background-size: 230px 230px;
+    border: transparent;
+
+
+
+}
+
+.button3:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.main{
+    margin: 20vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+}
+
+.result{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.container {
+    margin: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.divshadow1{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 500px;
+    background: url("flirty-japanese-cartoon-rock-digital-illustration-116946145-removebg-preview.png");
+}
+
+.divshadow2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    width: 198px;
+    height: 270px;
+    background: url("paper.png");
+}
+
+.divshadow3 {
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    height: 260px;
+    background: url("scissors-removebg-preview.png");
+}
